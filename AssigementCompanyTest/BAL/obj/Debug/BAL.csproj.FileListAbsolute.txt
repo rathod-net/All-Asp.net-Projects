@@ -1,6 +1,0 @@
-E:\ASP.NET\AssigementCompanyTest\BAL\bin\Debug\BAL.dll
-E:\ASP.NET\AssigementCompanyTest\BAL\bin\Debug\BAL.pdb
-E:\ASP.NET\AssigementCompanyTest\BAL\obj\Debug\BAL.csproj.AssemblyReference.cache
-E:\ASP.NET\AssigementCompanyTest\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
-E:\ASP.NET\AssigementCompanyTest\BAL\obj\Debug\BAL.dll
-E:\ASP.NET\AssigementCompanyTest\BAL\obj\Debug\BAL.pdb
