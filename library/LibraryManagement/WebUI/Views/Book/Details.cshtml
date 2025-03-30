@@ -1,0 +1,93 @@
+﻿@model Model.BookViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div class="container border-opacity-50 border-2 p-5 bg-warning-subtle">
+        <h4>Details of Book</h4>
+        <hr />
+        <dl class="dl-horizontal ">
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ISBN)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PublicationName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PublicationName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AuthorName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CreatedBy)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CreatedDate)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CategoryBookId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CategoryBookId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CategoryType)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CategoryType)
+            </dd>
+
+        </dl>
+
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+
+        </p>
+    </div>
+   
+</body>
+</html>

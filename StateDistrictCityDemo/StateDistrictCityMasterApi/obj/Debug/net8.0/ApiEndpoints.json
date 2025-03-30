@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "StateDistrictCityMasterApi.Controllers.MasterController",
+    "Method": "GetAllCityByDistrictId",
+    "RelativePath": "api/Master/GetAllCityByDistrictId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "districtId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StateDistrictCityMasterApi.Controllers.MasterController",
+    "Method": "GetAllDirstictByStateId",
+    "RelativePath": "api/Master/GetAllDirstictByStateId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StateDistrictCityMasterApi.Controllers.MasterController",
+    "Method": "GetAllState",
+    "RelativePath": "api/Master/GetAllState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StateDistrictCityMasterApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StateDistrictCityMasterApi.WeatherForecast, StateDistrictCityMasterApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

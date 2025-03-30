@@ -1,0 +1,15 @@
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\bin\Debug\net8.0\Data.dll
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\bin\Debug\net8.0\Data.pdb
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\ASP.NET\HRFoodDeliveryApp\Repositories\obj\Debug\net8.0\ref\Repositories.dll

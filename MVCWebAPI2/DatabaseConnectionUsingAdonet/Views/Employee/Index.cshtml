@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DatabaseConnectionUsingAdonet.Models.Employee>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body class="container ">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Eid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mid)
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null && Model.Count() > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Eid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Mid)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr class="bg-secondary">
+                <td colspan="4">
+                    No Categories Available
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

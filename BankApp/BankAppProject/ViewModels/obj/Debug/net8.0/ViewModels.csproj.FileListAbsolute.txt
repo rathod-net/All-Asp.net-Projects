@@ -1,0 +1,11 @@
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\bin\Debug\net8.0\ViewModels.deps.json
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\bin\Debug\net8.0\ViewModels.dll
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\bin\Debug\net8.0\ViewModels.pdb
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfoInputs.cache
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfo.cs
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.csproj.CoreCompileInputs.cache
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.dll
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\refint\ViewModels.dll
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ViewModels.pdb
+E:\ASP.NET\BankApp\BankAppProject\ViewModels\obj\Debug\net8.0\ref\ViewModels.dll

@@ -1,0 +1,6 @@
+E:\ASP.NET\AssigementCompanyTest\Repository\bin\Debug\Repository.dll
+E:\ASP.NET\AssigementCompanyTest\Repository\bin\Debug\Repository.pdb
+E:\ASP.NET\AssigementCompanyTest\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+E:\ASP.NET\AssigementCompanyTest\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+E:\ASP.NET\AssigementCompanyTest\Repository\obj\Debug\Repository.dll
+E:\ASP.NET\AssigementCompanyTest\Repository\obj\Debug\Repository.pdb

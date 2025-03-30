@@ -1,0 +1,116 @@
+﻿@model IEnumerable<CURDUsingEntityFrameworkDatabaseFirstApproch.Models.Category>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Product Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    @if (Model != null)
+                    {
+                        foreach (var category in Model)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu_@category.Id" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    @category.Name
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu_@category.Id">
+                                    @foreach (var subCategory in category.SubCategories)
+                                    {
+                                        <li>
+                                            <a class="dropdown-item" href="#" onclick="loadProducts(@subCategory.Sub_Cat_Id, '@subCategory.Sub_Cat_Name')">
+                                                @subCategory.Sub_Cat_Name
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <span> No Categories Available</span>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="btn-group ">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                @item.Name
+                            </button>
+                            <ul class="dropdown-menu" >
+                                <li class="dropdown-item" >
+                                    @foreach (var subItem in item.SubCategories)
+                                    {
+                                        <ul>
+                                            <li>
+                                                @Html.ActionLink(subItem.Sub_Cat_Name, "GetProductsBySubCategory", new { subItem = subItem.Sub_Cat_Id })
+                                                @foreach (var products in subItem.Products)
+                                                {
+                                                    <ul>
+                                                        <li>
+                                                            @Html.ActionLink(products.ProductName, "GetProductsBySubCategory", new { product = products.ProductId })
+                                                        </li>
+                                                    </ul>
+                                                }
+
+                                            </li>
+                                        </ul>
+
+                                    }
+
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        @* @Html.ActionLink(item.Name, "CategoryDetails", new {id=item.Id})*@
+                    </td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td> No Category Found!!!</td>
+            </tr>
+
+        }
+
+    </table>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

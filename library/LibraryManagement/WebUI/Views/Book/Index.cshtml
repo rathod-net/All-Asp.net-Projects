@@ -1,0 +1,159 @@
+﻿@model IEnumerable<Model.BookViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container border-opacity-50 border-2 p-5 bg-warning-subtle ">
+    <h2 class="text-bg-light text-center">List Of Books</h2>
+    <form method="get" class="float-end d-flex">
+        <input id="searchBook" class=" form-control m-1" type="text" name="search" placeholder="Search Here" />
+        <button class="btn btn-outline-primary m-1" type="submit">Search</button>
+    </form>
+
+    <p>
+        @Html.ActionLink("Create New Book", "Create", null, new { @class = "btn btn-info" })
+    </p>
+    <table class="table  table-info table-striped-columns">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CategoryBookId)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryType)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ISBN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublicationName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.CategoryBookId)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryType)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-warning" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+<div>
+    <button id="firstPage" disabled>1</button>
+    <button id="prevPage" disabled><</button>
+    <
+</div>
+
+
+
+<script>
+
+    $(document).ready(function () {
+        $('.btn').onclick(function () {
+            const searchBook = $('#searchBook').val().toLowerCase();
+
+            $.ajax({
+                url: 'Books/Index',
+                type: 'GET',
+                data: { searchBook: searchBook },
+                success: function (data) {
+                    $('.table tbody').append(
+                        `<tr>
+                    `)
+                }
+            })
+        })
+
+    })
+
+</script>
+
+<script>
+
+    $(document).ready(function () {
+        $('.btn').on('click', function () {
+            const searchBook = $('#searchBook').val();
+
+            $.ajax({
+                url: '/Books/SearchBooks',
+                type: 'GET',
+                data: { searchBook: searchBook },
+                success: function (data) {
+                    // Clear existing table rows
+                    $('.table tbody').empty();
+
+                    if (data.length > 0) {
+                        // Populate table with new data
+                        data.forEach(function (books) {
+                            $('.table tbody').append(`
+                            <tr>
+                                <td>${books.Title}</td>
+                                <td>${books.Author}</td>
+                                <td>${books.Category}</td>
+                                <td>${books.ISBN}</td>
+                                <td>${books.PublicationName}</td>
+                                <td>${books.CreatedBy}</td>
+                                <td>${new Date(books.CreatedDate).toLocaleDateString()}</td>
+                            </tr>
+                        `);
+                        });
+                    } else {
+                        // Show no records message
+                        $('.table tbody').append(`
+                        <tr>
+                            <td colspan="7">No records found.</td>
+                        </tr>
+                    `);
+                    }
+                },
+                error: function () {
+                    alert('Error retrieving data.');
+                }
+            });
+        });
+    });
+</script>

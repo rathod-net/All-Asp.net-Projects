@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3JMJt4ZkanA4+1PDLnD6kzjS3xgi0SHojNuoONLJV48=",
+  "Source": "StateDistrictCityMasterApi",
+  "BasePath": "_content/StateDistrictCityMasterApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

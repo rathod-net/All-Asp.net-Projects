@@ -1,0 +1,6 @@
+@StateDistrictCityMasterApi_HostAddress = http://localhost:5133
+
+GET {{StateDistrictCityMasterApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

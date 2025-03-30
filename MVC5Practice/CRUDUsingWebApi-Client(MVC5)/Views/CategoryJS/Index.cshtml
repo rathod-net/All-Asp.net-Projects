@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.1/css/dataTables.dataTables.css" />
+    <script src="https://cdn.datatables.net/2.2.1/js/dataTables.js"></script>
+</head>
+<body>
+    <div> 
+        <h1>Hello Welcome Hemansh...</h1>
+        <div>
+            @Html.ActionLink("Create New Category","Create","CategoryJS")
+            <table id="tblCategory">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+    <script>
+        $(function () {
+
+            $.ajax({
+                url: 'https://localhost:44374/api/category',
+                type: 'get',
+                success: function (response) {
+                    //   alert('api call success');
+                    console.log(response);
+                    $('#tblCategory').DataTable({
+                        data: response,
+                        columns: [
+                            { "data": "Id" },
+                            { "data": "Name" },
+                            {"data":"Rating"}
+                            ]
+                        
+                    });
+                    data: response
+
+                },
+                error: function () {
+                    alert('api call failed');
+                }
+            });
+
+        });
+        
+
+    </script>
+
+</body>
+</html>

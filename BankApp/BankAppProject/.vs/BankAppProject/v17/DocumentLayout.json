@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\BankApp\\BankAppProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|e:\\asp.net\\bankapp\\bankappproject\\data\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|solutionrelative:data\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|e:\\asp.net\\bankapp\\bankappproject\\data\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|solutionrelative:data\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|e:\\asp.net\\bankapp\\bankappproject\\data\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|solutionrelative:data\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|e:\\asp.net\\bankapp\\bankappproject\\data\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4034E10A-284C-4FA6-9EFE-9BA268CEB90A}|Data\\Data.csproj|solutionrelative:data\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\Loan.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Loan.cs",
+              "ToolTip": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\Loan.cs",
+              "RelativeToolTip": "Data\\Entities\\Loan.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:25:27.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Transaction.cs",
+              "ToolTip": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\Transaction.cs",
+              "RelativeToolTip": "Data\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:19:41.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\ApplicationUser.cs",
+              "ToolTip": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:16:59.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\BankAccount.cs",
+              "ToolTip": "E:\\ASP.NET\\BankApp\\BankAppProject\\Data\\Entities\\BankAccount.cs",
+              "RelativeToolTip": "Data\\Entities\\BankAccount.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:10:34.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

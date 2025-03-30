@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CRUDUsingWebApi\\CRUDUsingWebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CRUDUsingWebApi-Client(MVC5)\\CRUDUsingWebApi-Client(MVC5).csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

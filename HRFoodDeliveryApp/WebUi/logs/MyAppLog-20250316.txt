@@ -1,0 +1,144 @@
+2025-03-16 11:09:39 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:15:45 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:19:58 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:29:50 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:32:39 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:42:26 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (245ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:43:28 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:45:28 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+2025-03-16 11:50:29 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [RestaurantId] int NOT NULL,
+    [MenuItemId] int NOT NULL,
+    [DeliveryPartnerProfileId] int NULL,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [ReviewDate] datetime2 NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_DeliveryPartnerProfiles_DeliveryPartnerProfileId] FOREIGN KEY ([DeliveryPartnerProfileId]) REFERENCES [DeliveryPartnerProfiles] ([DeliveryPartnerProfileId]),
+    CONSTRAINT [FK_Reviews_MenuItems_MenuItemId] FOREIGN KEY ([MenuItemId]) REFERENCES [MenuItems] ([MenuItemId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Restaurants_RestaurantId] FOREIGN KEY ([RestaurantId]) REFERENCES [Restaurants] ([RestaurantId]),
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);

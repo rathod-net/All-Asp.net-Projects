@@ -1,0 +1,60 @@
+﻿@model MVCDemo.Models.Product
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="bg-primary p-2 m-3 text-center">
+            <h1>Product Details</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    Mobile:
+                    <ul>
+                        <li>Id:@Model.Id</li>
+                        <li>Name:@Model.Name</li>
+                        <li>Price:@Model.Price</li>
+                    </ul>
+                </li>
+                <li>
+                    Laptop:
+                    <ul>
+                        <li>Id</li>
+                        <li>Name</li>
+                        <li>Price</li>
+                    </ul>
+                </li>
+                <li>
+                    TV:
+                    <ul>
+                        <li>Id</li>
+                        <li>Name</li>
+                        <li>Price</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sample Product Details sent from Controller</h3>
+
+        </div>
+        <div>
+            @Html.ActionLink("Goto Index1 Page", "Index1")
+
+        </div>
+        <hr />
+        <div class="bg-danger p-2 m-3 text-center">
+            <h5>Hemansh TechSoln Ltd.All Rights are Resived &copy|2024</h5>
+        </div>
+    </div>
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|e:\\asp.net\\mvc5curddatebaseandcodefirstapproch\\mvc5curddatebaseandcodefirstapproch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\mvc5curddatebaseandcodefirstapproch\\models\\entities\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\models\\entities\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\mvc5curddatebaseandcodefirstapproch\\models\\registeruserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\models\\registeruserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\mvc5curddatebaseandcodefirstapproch\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\mvc5curddatebaseandcodefirstapproch\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\mvc5curddatebaseandcodefirstapproch\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}|Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch.csproj|solutionrelative:mvc5curddatebaseandcodefirstapproch\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:15:50.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\Entities\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\Entities\\RegisterUser.cs",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\Entities\\RegisterUser.cs",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\Entities\\RegisterUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:14:08.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserDbContext.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\RegisterUserDbContext.cs",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\RegisterUserDbContext.cs",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\RegisterUserDbContext.cs",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Models\\RegisterUserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:14:06.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\Login.cshtml",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T06:51:24.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T06:46:11.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "E:\\ASP.NET\\Mvc5CurdDatebaseAndCodeFirstApproch\\Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "Mvc5CurdDatebaseAndCodeFirstApproch\\Views\\Home\\SignUp.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T06:35:46.291Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

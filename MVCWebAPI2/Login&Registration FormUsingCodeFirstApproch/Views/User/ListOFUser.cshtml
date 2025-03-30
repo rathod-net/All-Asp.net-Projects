@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Login_Registration_FormUsingCodeFirstApproch.Models.Entities.User>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListOFUser</title>
+    <link href="~/content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="text-center">
+    <div class="container mt-2 row ">
+
+    </div>
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary   rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" role="presentation">
+
+            @Html.ActionLink("Create New", "CreateUser", null, new { @class = "btn btn-success" })
+        </li>
+        <li class="nav-item" role="presentation">
+
+            @Html.ActionLink("List of Users", "ListOFUser", null, new { @class = "btn btn-warning" })
+
+        </li>
+
+    </ul>
+    <table class="table table-danger table-striped container border-warning mt-4">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-info" }) |
+                    @Html.ActionLink("Details", "Datails", new { id = item.Id }, new { @class = "btn btn-info" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-info" })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿
+<div>
+    <h1 class="bg-dark text-white p-2 m-3 text-center">Hemansh Web Page MVC 5</h1>
+</div>
+<ul class="nav nav-pills bg-warning">
+    <li class="nav-item me-3 p-2">
+        @Html.ActionLink("Home Page", "Index", null, new { @class = "btn btn-info btn-outline-primary text-white" })
+    </li>
+
+    <li class="nav-item me-3 p-2">
+        @Html.ActionLink("Create Employee", "Create", null, new { @class = "btn btn-primary" })
+    </li>
+    <li class="nav-item me-3 p-2">
+
+    <!-- Example single danger button -->
+    <div class="btn-group ">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            -- Department --
+        </button>
+        <ul class="dropdown-menu text-center">
+            
+            <li> @Html.ActionLink("Admin", "Admin")</li>
+            <li> @Html.ActionLink("HR", "HR")</li>
+            <li> @Html.ActionLink("IT", "IT")</li>
+        </ul>
+    </div>
+</ul>

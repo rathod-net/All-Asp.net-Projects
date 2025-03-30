@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\bin\Debug\net8.0\PrimeNumberExample.exe
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\bin\Debug\net8.0\PrimeNumberExample.dll
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.dll
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\refint\PrimeNumberExample.dll
+C:\Users\Admin\source\repos\Assignment\PrimeNumberExample\obj\Debug\net8.0\PrimeNumberExample.pdb

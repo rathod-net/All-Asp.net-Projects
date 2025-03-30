@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryDAL", "CategoryDAL\CategoryDAL.csproj", "{075CC078-DFD0-4D37-B244-5490656A0810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryBAL", "CategoryBAL\CategoryBAL.csproj", "{190CAD0C-998F-4FCD-8ED9-92E9F8BCE47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryModel", "CategoryModel\CategoryModel.csproj", "{719D3537-C5E8-4338-8B47-52CE61FCC7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{66F5F237-1EB4-4EDD-865F-994F74419BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.UiLayer", "Web.UiLayer\Web.UiLayer.csproj", "{D22E1765-453C-4F30-B84A-2C3D093D260D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5CurdDatebaseAndCodeFirstApproch", "..\Mvc5CurdDatebaseAndCodeFirstApproch\Mvc5CurdDatebaseAndCodeFirstApproch\Mvc5CurdDatebaseAndCodeFirstApproch.csproj", "{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{075CC078-DFD0-4D37-B244-5490656A0810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075CC078-DFD0-4D37-B244-5490656A0810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075CC078-DFD0-4D37-B244-5490656A0810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075CC078-DFD0-4D37-B244-5490656A0810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190CAD0C-998F-4FCD-8ED9-92E9F8BCE47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190CAD0C-998F-4FCD-8ED9-92E9F8BCE47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190CAD0C-998F-4FCD-8ED9-92E9F8BCE47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190CAD0C-998F-4FCD-8ED9-92E9F8BCE47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719D3537-C5E8-4338-8B47-52CE61FCC7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719D3537-C5E8-4338-8B47-52CE61FCC7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719D3537-C5E8-4338-8B47-52CE61FCC7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719D3537-C5E8-4338-8B47-52CE61FCC7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F5F237-1EB4-4EDD-865F-994F74419BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F5F237-1EB4-4EDD-865F-994F74419BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F5F237-1EB4-4EDD-865F-994F74419BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F5F237-1EB4-4EDD-865F-994F74419BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22E1765-453C-4F30-B84A-2C3D093D260D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22E1765-453C-4F30-B84A-2C3D093D260D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22E1765-453C-4F30-B84A-2C3D093D260D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22E1765-453C-4F30-B84A-2C3D093D260D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB1BC43-F040-4461-8AEF-4A99299D2AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {549FBC2C-D10D-4451-9F22-BC639BDF86B5}
+	EndGlobalSection
+EndGlobal

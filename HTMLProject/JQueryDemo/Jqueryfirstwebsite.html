@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input type="text" class="txt" value="Username"/><br />
+    <input type="text" class="txt" value="Password"/><br />
+    <textarea rows="4" cols="35"></textarea><br />
+    <button id="btn">Submit</button>
+
+
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+               
+                $('.txt').toggle();
+            });
+            $('button').mouseenter(function () {
+                console.log('mouse enter on button');
+            });
+            
+        });
+    </script>
+</body>
+</html>

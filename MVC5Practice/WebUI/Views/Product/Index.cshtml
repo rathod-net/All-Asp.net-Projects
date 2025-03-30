@@ -1,0 +1,141 @@
+﻿@model IEnumerable<DAL.DataEntities.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Products</h2>
+
+
+
+
+
+<div class="container-fluid mt-4 ">
+    <div class="row">
+        <!-- Sidebar Filters -->
+        <div class="col-md-12 mb-4 ">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"> List of Products</h5>
+                </div>
+                <div class="card-body ">
+                    <!-- Search -->
+                    <div class="mb-3">
+                        <label for="searchTerm" class="form-label">Search Products</label>
+                        <div class="input-group float-end">
+                            <input type="text" id="searchTerm" class="form-control" placeholder="Search here...">
+                            <button class="btn btn-outline-primary" type="button" id="searchButton">
+                               Search <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        
+
+                   
+
+                    <!-- Category -->
+                    @*<div class="mb-3">
+                        <label for="categorySelect" class="form-label">Category</label>
+                        @Html.DropDownList("CategoryId", (SelectList)ViewBag.Categories, "All Categories", new { @class = "form-select", id = "categorySelect" })
+                    </div>*@
+                </div>
+            </div>
+            <table class="table table-striped table-warning  ">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.CategoryId)*@
+                        <lable>Category Name</lable>
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category.Name)
+                          
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }, new { @class = "btn btn-primary" }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.ProductId }, new { @class = "btn btn-info" }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ProductId }, new { @class = "btn btn-danger" })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+                
+
+            <!-- Add Product Button -->
+            <div class="mt-3 text-center p-1">
+                @Html.ActionLink("Add New Product", "Create", null, new { @class = "btn btn-success w-100 " })
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="col-md-9">
+            <div id="productGrid" class="row">
+                @*@await Html.PartialAsync("_ProductGrid", Model)*@
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            function searchProducts() {
+                $('#productGrid').addClass('loading');
+                var searchData = {
+                    searchTerm: $('#searchTerm').val(),
+                    minPrice: $('#minPrice').val(),
+                    maxPrice: $('#maxPrice').val(),
+                    categoryId: $('#categorySelect').val()
+                };
+
+                $.ajax({
+                    url: '@Url.Action("Search", "Product")',
+                    type: 'GET',
+                    data: searchData,
+                    success: function (result) {
+                        $('#productGrid').html(result).removeClass('loading');
+                    },
+                    error: function (error) {
+                        console.log('Error:', error);
+                        $('#productGrid').removeClass('loading');
+                    }
+                });
+            }
+
+            var searchTimer;
+            function debounceSearch() {
+                clearTimeout(searchTimer);
+                searchTimer = setTimeout(searchProducts, 500);
+            }
+
+            $('#searchTerm').on('input', debounceSearch);
+            $('#minPrice, #maxPrice').on('input', debounceSearch);
+            $('#categorySelect').change(searchProducts);
+            $('#searchButton').click(searchProducts);
+        });
+    </script>
+}

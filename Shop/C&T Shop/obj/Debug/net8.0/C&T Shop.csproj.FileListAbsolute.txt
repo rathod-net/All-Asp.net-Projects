@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Shop\C&T Shop\bin\Debug\net8.0\C&T Shop.exe
+C:\Users\Admin\source\repos\Shop\C&T Shop\bin\Debug\net8.0\C&T Shop.deps.json
+C:\Users\Admin\source\repos\Shop\C&T Shop\bin\Debug\net8.0\C&T Shop.runtimeconfig.json
+C:\Users\Admin\source\repos\Shop\C&T Shop\bin\Debug\net8.0\C&T Shop.dll
+C:\Users\Admin\source\repos\Shop\C&T Shop\bin\Debug\net8.0\C&T Shop.pdb
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.dll
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\refint\C&T Shop.dll
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.pdb
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\C&T Shop.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Shop\C&T Shop\obj\Debug\net8.0\ref\C&T Shop.dll

@@ -1,0 +1,11 @@
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\bin\Debug\net8.0\ViewModel.deps.json
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\bin\Debug\net8.0\ViewModel.dll
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\bin\Debug\net8.0\ViewModel.pdb
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfoInputs.cache
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfo.cs
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.csproj.CoreCompileInputs.cache
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.dll
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\refint\ViewModel.dll
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ViewModel.pdb
+E:\ASP.NET\HRFoodDeliveryApp\ViewModel\obj\Debug\net8.0\ref\ViewModel.dll

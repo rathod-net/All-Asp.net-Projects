@@ -1,0 +1,70 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" style="border-radius:10px">
+        <div class="container-fluid">
+          <a href="https://mahavastu.maharashtra.gov.in/index.php?signin=1"> <img src="~/Image/aaplesarkar.png" alt="Aaple Sarkar" width="120" height="120" style="border-radius:50px"/></a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+
+                
+                <form class="d-flex m-2">
+                    @if (Session["UserNameSS"] != null)
+                    {
+                        <p class="m-3">
+                            Hello @Session["UserNameSS"]
+                        </p> 
+            <p class="m-2">@Html.ActionLink("Logout", "Logout", null,new {@class= "btn btn-info" }) </p>
+        }
+        else
+        {
+            <p class="m-2">@Html.ActionLink("SignUp", "SignUp",null, new { @class = "btn btn-info" }) </p> 
+            <p class="m-2">@Html.ActionLink("Login", "Login", null, new { @class = "btn btn-primary" }) </p>
+        }
+         </form>
+
+            </div>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <p class="bg-danger-subtle p-3 mt-3" style="border-radius:10px">
+            Hemansh TechSolution Private Ltd. Pune Copy Rights|&copy;2024.<br />
+            <a  href="http:\\Facebook.com">Facebook</a> |  <a  href="http:\\Google.com">Google</a>
+        </p>
+    </div>
+</body>
+</html>

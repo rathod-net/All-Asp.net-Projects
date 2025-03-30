@@ -1,0 +1,76 @@
+﻿@model MVCDemo.Models.Product
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index1</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="bg-success p-2 m-3 text-center">
+            <h1>Product Details</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    Mobile:
+                    <ul>
+                        <li>Id</li>
+                        <li>Name</li>
+                        <li>Price</li>
+                    </ul>
+                </li>
+                <li>
+                    Laptop:
+                    <ul>
+                        <li>Id</li>
+                        <li>Name</li>
+                        <li>Price</li>
+                    </ul>
+                </li>
+                <li>
+                    TV:
+                    <ul>
+                        <li>Id</li>
+                        <li>Name</li>
+                        <li>Price</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        @{ 
+            List<string> names = new List<string>() { "Mobile", "Laptop", "TV" };
+            <ul>
+                @foreach(string name in names)
+            {
+                <li>@name
+                @{ 
+                    List<string> details = new List<string>() { "Id", "Name", "Price" };
+                    <ul>
+                        @foreach(string detail in details)
+                {
+                            <li>@detail</li>
+                }  
+                    </ul>
+                }
+                </li> 
+                    }
+            </ul>
+        }
+
+
+        @Html.ActionLink("Goto Index Page", "Index")
+        <hr />
+        <div class="bg-warning p-2 m-3 text-center">
+            <h5>Hemansh TechSoln Ltd.All Rights are Resived &copy|2024</h5>
+        </div>
+    </div>
+   
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

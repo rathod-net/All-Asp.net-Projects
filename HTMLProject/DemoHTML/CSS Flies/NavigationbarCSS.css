@@ -1,0 +1,24 @@
+﻿.header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:crimson;
+    
+}
+h1:hover{
+ color:greenyellow;
+}
+
+a{
+    font-size:20px;
+    padding:10px;
+    border-radius:10px;
+    border:solid;
+    border-color:blueviolet;
+    
+}
+
+a:hover{
+    background-color:gold;
+    border:none;
+}

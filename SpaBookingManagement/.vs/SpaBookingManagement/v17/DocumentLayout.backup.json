@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\SpaBookingManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36E28B41-F5A7-4DFD-A715-983DEE1AD42E}|BusinessLayer\\BusinessLayer.csproj|e:\\asp.net\\spabookingmanagement\\businesslayer\\impletations\\seatbookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E28B41-F5A7-4DFD-A715-983DEE1AD42E}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\impletations\\seatbookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|e:\\asp.net\\spabookingmanagement\\webui\\controllers\\seatbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\seatbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|e:\\asp.net\\spabookingmanagement\\webui\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E29B01C-4905-4511-8819-E697129B1E67}|Dto\\Dto.csproj|e:\\asp.net\\spabookingmanagement\\dto\\seatbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E29B01C-4905-4511-8819-E697129B1E67}|Dto\\Dto.csproj|solutionrelative:dto\\seatbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|e:\\asp.net\\spabookingmanagement\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60DE48A-A9EE-4234-8FD1-561BB3D6D718}|WebUI\\WebUI.csproj|solutionrelative:webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeatBookingServices.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\SpaBookingManagement\\BusinessLayer\\Impletations\\SeatBookingServices.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Impletations\\SeatBookingServices.cs",
+              "ToolTip": "E:\\ASP.NET\\SpaBookingManagement\\BusinessLayer\\Impletations\\SeatBookingServices.cs",
+              "RelativeToolTip": "BusinessLayer\\Impletations\\SeatBookingServices.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:29:19.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeatBookingController.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Controllers\\SeatBookingController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\SeatBookingController.cs",
+              "ToolTip": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Controllers\\SeatBookingController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\SeatBookingController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:25:04.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeatBookingDto.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\SpaBookingManagement\\Dto\\SeatBookingDto.cs",
+              "RelativeDocumentMoniker": "Dto\\SeatBookingDto.cs",
+              "ToolTip": "E:\\ASP.NET\\SpaBookingManagement\\Dto\\SeatBookingDto.cs",
+              "RelativeToolTip": "Dto\\SeatBookingDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:22:03.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "WebUI\\Program.cs",
+              "ToolTip": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Program.cs",
+              "RelativeToolTip": "WebUI\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T11:38:33.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\ASP.NET\\SpaBookingManagement\\WebUI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:38:24.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

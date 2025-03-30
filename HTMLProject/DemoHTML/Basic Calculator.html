@@ -1,0 +1,85 @@
+﻿<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="CSS Flies/basiccalculator.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Basic Calculator</h1>
+    </header>
+    <form id="container">
+        <div>
+            <input id="display" style="width:195px" />
+        </div>
+        <div>
+            <button class="numbers" onclick="showOnTestbox('1')">1</button>
+            <button class="numbers" onclick="showOnTestbox('2')">2</button>
+            <button class="numbers" onclick="showOnTestbox('3')">3</button>
+            <button class="numbers" id="div" onclick="chooseOperation('/')">/</button>
+        </div>
+        <div>
+            <button class="numbers" onclick="showOnTestbox('4')">4</button>
+            <button class="numbers" onclick="showOnTestbox('5')">5</button>
+            <button class="numbers" onclick="showOnTestbox('6')">6</button>
+            <button class="numbers" id="mul" onclick="chooseOperation('x')">x</button>
+        </div>
+        <div>
+            <button class="numbers" onclick="showOnTestbox('7')">7</button>
+            <button class="numbers" onclick="showOnTestbox('8')">8</button>
+            <button class="numbers" onclick="showOnTestbox('9')">9</button>
+            <button class="numbers" id="sub" onclick="chooseOperation('-')">-</button>
+        </div>
+        <div>
+            <button class="numbers" id="delete" onclick="deleteLastNumber()">Del</button>
+            <button class="numbers" onclick="showOnTestbox('0')">0</button>
+            <button class="numbers" id="equal">=</button>
+            <button class="numbers" id="add" onclick="chooseOperation('+')">+</button>
+        </div>
+        <div>
+            <button id="clear" onclick="clearDisplay()">Clear</button>
+        </div>
+    </form>
+    <script src="JavaScript/basicCalculator.js"></script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    
+    <link href="CSS Flies/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="result" disabled>
+        <div class="buttons">
+            <button onclick="clearResult()">C</button>
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="appendSymbol('/')">/</button>
+            <button onclick="appendSymbol('*')">x</button>
+            <button onclick="appendSymbol('7')">7</button>
+            <button onclick="appendSymbol('8')">8</button>
+            <button onclick="appendSymbol('9')">9</button>
+            <button onclick="appendSymbol('-')">-</button>
+            <button onclick="appendSymbol('4')">4</button>
+            <button onclick="appendSymbol('5')">5</button>
+            <button onclick="appendSymbol('6')">6</button>
+            <button onclick="appendSymbol('+')">+</button>
+            <button onclick="appendSymbol('1')">1</button>
+            <button onclick="appendSymbol('2')">2</button>
+            <button onclick="appendSymbol('3')">3</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendSymbol('0')" class="zero">0</button>
+            <button onclick="appendSymbol('.')">.</button>
+        </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+
+</body>
+</html>

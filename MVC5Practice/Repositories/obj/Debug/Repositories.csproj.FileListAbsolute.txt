@@ -1,0 +1,15 @@
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\Repositories.dll
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\Repositories.pdb
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\DAL.dll
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\DAL.pdb
+E:\ASP.NET\MVC5Practice\Repositories\obj\Debug\Repositories.csproj.AssemblyReference.cache
+E:\ASP.NET\MVC5Practice\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+E:\ASP.NET\MVC5Practice\Repositories\obj\Debug\Reposito.787EC4B2.Up2Date
+E:\ASP.NET\MVC5Practice\Repositories\obj\Debug\Repositories.dll
+E:\ASP.NET\MVC5Practice\Repositories\obj\Debug\Repositories.pdb
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\EntityFramework.dll
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\DAL.dll.config
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\EntityFramework.xml
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\Repositories.dll.config
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+E:\ASP.NET\MVC5Practice\Repositories\bin\Debug\EntityFramework.SqlServer.xml

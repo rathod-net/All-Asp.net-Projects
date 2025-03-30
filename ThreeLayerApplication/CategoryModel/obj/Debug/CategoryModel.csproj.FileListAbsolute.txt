@@ -1,0 +1,6 @@
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\bin\Debug\CategoryModel.dll
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\bin\Debug\CategoryModel.pdb
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\obj\Debug\CategoryModel.csproj.AssemblyReference.cache
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\obj\Debug\CategoryModel.csproj.CoreCompileInputs.cache
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\obj\Debug\CategoryModel.dll
+E:\ASP.NET\ThreeLayerApplication\CategoryModel\obj\Debug\CategoryModel.pdb

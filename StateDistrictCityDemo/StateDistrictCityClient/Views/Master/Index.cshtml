@@ -1,0 +1,28 @@
+﻿@model StateDistrictCityClient.Models.Entities.LocationViewModel
+
+
+<h2>Select Location </h2>
+<div class="container row">
+<div class="col-4">
+    <label>State:</label>
+        <select asp-for="SelectedStateId" asp-items="new SelectList(Model.states,'StateId','StateName')" class="form-control">
+            <option value="value">Select State</option>
+    @foreach(var state in Model.States)
+    {
+       
+    }
+    </select>
+</div>
+    <div class="col-4">
+    <label>District:</label>
+    <select id="districtDropDown" class="form-control">
+        <option value="value">Select District</option>
+    </select>
+</div>
+    <div class="col-4">
+    <label>City:</label>
+    <select id="cityDropDown" class="form-control">
+        <option value="value">Select State</option>
+    </select>
+</div>
+</div>

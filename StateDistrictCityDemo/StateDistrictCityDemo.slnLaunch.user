@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "StateDistrictCityMasterApi\\StateDistrictCityMasterApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "StateDistrictCityClient\\StateDistrictCityClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\StateDistrictCityDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC647982-E1AE-4654-9BF0-222F0D4A587F}|StateDistrictCityClient\\StateDistrictCityClient.csproj|e:\\asp.net\\statedistrictcitydemo\\statedistrictcityclient\\services\\masterservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC647982-E1AE-4654-9BF0-222F0D4A587F}|StateDistrictCityClient\\StateDistrictCityClient.csproj|solutionrelative:statedistrictcityclient\\services\\masterservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC647982-E1AE-4654-9BF0-222F0D4A587F}|StateDistrictCityClient\\StateDistrictCityClient.csproj|e:\\asp.net\\statedistrictcitydemo\\statedistrictcityclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC647982-E1AE-4654-9BF0-222F0D4A587F}|StateDistrictCityClient\\StateDistrictCityClient.csproj|solutionrelative:statedistrictcityclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C804CFA-2B2A-47F8-BC3A-7D363B24AE79}|StateDistrictCityMasterApi\\StateDistrictCityMasterApi.csproj|e:\\asp.net\\statedistrictcitydemo\\statedistrictcitymasterapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C804CFA-2B2A-47F8-BC3A-7D363B24AE79}|StateDistrictCityMasterApi\\StateDistrictCityMasterApi.csproj|solutionrelative:statedistrictcitymasterapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityClient\\Program.cs",
+              "RelativeDocumentMoniker": "StateDistrictCityClient\\Program.cs",
+              "ToolTip": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityClient\\Program.cs",
+              "RelativeToolTip": "StateDistrictCityClient\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:11:43.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityMasterApi\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "StateDistrictCityMasterApi\\Controllers\\MasterController.cs",
+              "ToolTip": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityMasterApi\\Controllers\\MasterController.cs",
+              "RelativeToolTip": "StateDistrictCityMasterApi\\Controllers\\MasterController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:55:06.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterServices.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityClient\\Services\\MasterServices.cs",
+              "RelativeDocumentMoniker": "StateDistrictCityClient\\Services\\MasterServices.cs",
+              "ToolTip": "E:\\ASP.NET\\StateDistrictCityDemo\\StateDistrictCityClient\\Services\\MasterServices.cs",
+              "RelativeToolTip": "StateDistrictCityClient\\Services\\MasterServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:44:15.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

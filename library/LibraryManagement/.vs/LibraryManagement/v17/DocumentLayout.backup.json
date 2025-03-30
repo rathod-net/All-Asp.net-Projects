@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\library\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|E:\\ASP.NET\\library\\LibraryManagement\\bal\\mappingservices\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|solutionrelative:bal\\mappingservices\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEABEA7C-A3C6-48E4-BD0C-49E26AB9D004}|WebUI\\WebUI.csproj|e:\\asp.net\\library\\librarymanagement\\webui\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEABEA7C-A3C6-48E4-BD0C-49E26AB9D004}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|E:\\ASP.NET\\library\\LibraryManagement\\bal\\categorybookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|solutionrelative:bal\\categorybookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|E:\\ASP.NET\\library\\LibraryManagement\\bal\\bookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|solutionrelative:bal\\bookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E376CB4A-536F-492D-A084-3F57B34690BB}|Repository\\Repository.csproj|e:\\asp.net\\library\\librarymanagement\\repository\\categorybookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E376CB4A-536F-492D-A084-3F57B34690BB}|Repository\\Repository.csproj|solutionrelative:repository\\categorybookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0E35B0-D492-4385-B893-99AEDC1A6060}|Model\\Model.csproj|e:\\asp.net\\library\\librarymanagement\\model\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0E35B0-D492-4385-B893-99AEDC1A6060}|Model\\Model.csproj|solutionrelative:model\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E376CB4A-536F-492D-A084-3F57B34690BB}|Repository\\Repository.csproj|e:\\asp.net\\library\\librarymanagement\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E376CB4A-536F-492D-A084-3F57B34690BB}|Repository\\Repository.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD3892B-4E35-411F-863E-1FB9AC44C5E7}|DAL\\DAL.csproj|e:\\asp.net\\library\\librarymanagement\\dal\\dbcontextentity\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD3892B-4E35-411F-863E-1FB9AC44C5E7}|DAL\\DAL.csproj|solutionrelative:dal\\dbcontextentity\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|e:\\asp.net\\library\\librarymanagement\\bal\\icategorybookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|solutionrelative:bal\\icategorybookbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|E:\\ASP.NET\\library\\LibraryManagement\\bal\\project dependancies\\registerpd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D03020A-A090-468C-818C-F271AC9505C5}|BAL\\BAL.csproj|solutionrelative:bal\\project dependancies\\registerpd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryBookRepo.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\Repository\\CategoryBookRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoryBookRepo.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\Repository\\CategoryBookRepo.cs",
+              "RelativeToolTip": "Repository\\CategoryBookRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:25:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\Model\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "Model\\BookViewModel.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\Model\\BookViewModel.cs",
+              "RelativeToolTip": "Model\\BookViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T02:59:56.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Repository\\BookRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T02:46:28.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibraryDBContext.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\DAL\\DBContextEntity\\LibraryDBContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DBContextEntity\\LibraryDBContext.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\DAL\\DBContextEntity\\LibraryDBContext.cs",
+              "RelativeToolTip": "DAL\\DBContextEntity\\LibraryDBContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T02:45:13.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\MappingServices\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "BAL\\MappingServices\\AutoMapperProfile.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\MappingServices\\AutoMapperProfile.cs",
+              "RelativeToolTip": "BAL\\MappingServices\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:59:36.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\WebUI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\BookController.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\WebUI\\Controllers\\BookController.cs*",
+              "RelativeToolTip": "WebUI\\Controllers\\BookController.cs*",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswE0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:47:52.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookBAL.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\BookBAL.cs",
+              "RelativeDocumentMoniker": "BAL\\BookBAL.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\BookBAL.cs",
+              "RelativeToolTip": "BAL\\BookBAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:47:41.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryBookBAL.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\CategoryBookBAL.cs",
+              "RelativeDocumentMoniker": "BAL\\CategoryBookBAL.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\CategoryBookBAL.cs",
+              "RelativeToolTip": "BAL\\CategoryBookBAL.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:47:40.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICategoryBookBAL.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\ICategoryBookBAL.cs",
+              "RelativeDocumentMoniker": "BAL\\ICategoryBookBAL.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\ICategoryBookBAL.cs",
+              "RelativeToolTip": "BAL\\ICategoryBookBAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:14:41.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterPD.cs",
+              "DocumentMoniker": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\Project Dependancies\\RegisterPD.cs",
+              "RelativeDocumentMoniker": "BAL\\Project Dependancies\\RegisterPD.cs",
+              "ToolTip": "E:\\ASP.NET\\library\\LibraryManagement\\BAL\\Project Dependancies\\RegisterPD.cs",
+              "RelativeToolTip": "BAL\\Project Dependancies\\RegisterPD.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:54:20.796Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\Repository.dll
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\Repository.pdb
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\DAL.dll
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\EntityFramework.dll
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\DAL.pdb
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\DAL.dll.config
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\EntityFramework.xml
+E:\ASP.NET\library\LibraryManagement\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+E:\ASP.NET\library\LibraryManagement\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+E:\ASP.NET\library\LibraryManagement\Repository\obj\Debug\Repository.csproj.Up2Date
+E:\ASP.NET\library\LibraryManagement\Repository\obj\Debug\Repository.dll
+E:\ASP.NET\library\LibraryManagement\Repository\obj\Debug\Repository.pdb
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\Repository.dll.config
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\ASP.NET\library\LibraryManagement\Repository\bin\Debug\EntityFramework.SqlServer.xml

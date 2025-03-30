@@ -1,0 +1,15 @@
+E:\ASP.NET\SpaBookingManagement\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\ASP.NET\SpaBookingManagement\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\ASP.NET\SpaBookingManagement\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+E:\ASP.NET\SpaBookingManagement\Repositories\bin\Debug\net8.0\DataModel.dll
+E:\ASP.NET\SpaBookingManagement\Repositories\bin\Debug\net8.0\DataModel.pdb
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\ASP.NET\SpaBookingManagement\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date

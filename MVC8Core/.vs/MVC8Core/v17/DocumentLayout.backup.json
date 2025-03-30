@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET\\MVC8Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B599CBE-1C17-46BC-B43A-016139733F20}|MVC8 Core Demos\\MVC8 Core Demos.csproj|e:\\asp.net\\mvc8core\\mvc8 core demos\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B599CBE-1C17-46BC-B43A-016139733F20}|MVC8 Core Demos\\MVC8 Core Demos.csproj|solutionrelative:mvc8 core demos\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B599CBE-1C17-46BC-B43A-016139733F20}|MVC8 Core Demos\\MVC8 Core Demos.csproj|e:\\asp.net\\mvc8core\\mvc8 core demos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B599CBE-1C17-46BC-B43A-016139733F20}|MVC8 Core Demos\\MVC8 Core Demos.csproj|solutionrelative:mvc8 core demos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET\\MVC8Core\\MVC8 Core Demos\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "MVC8 Core Demos\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "E:\\ASP.NET\\MVC8Core\\MVC8 Core Demos\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "MVC8 Core Demos\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T10:12:48.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET\\MVC8Core\\MVC8 Core Demos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC8 Core Demos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET\\MVC8Core\\MVC8 Core Demos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC8 Core Demos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T09:44:38.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
